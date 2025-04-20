@@ -2,7 +2,7 @@
 $host = "localhost";
 $dbname = "viciobd"; // <- ESTE debe coincidir con el nombre de tu base en pgAdmin
 $user = "postgres";
-$password = "diego";
+$password = "idk123...";
 
 try {
     $conn = new PDO("pgsql:host=$host;dbname=$dbname", $user, $password);

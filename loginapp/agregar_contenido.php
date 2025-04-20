@@ -34,9 +34,6 @@ require 'db.php';
       ?>
     </select><br><br>
 
-    <label>Formato:</label><br>
-    <input type="text" name="formato" placeholder="JPG, PNG, MOV..." required><br><br>
-
     <label>Descripción:</label><br>
     <textarea name="descripcion" rows="4"></textarea><br><br>
 

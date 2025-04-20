@@ -40,5 +40,9 @@ if (!isset($_SESSION['usuario'])) {
     <div style="width: 200px; height: 100px; background: white; color: black;">
         Descárgalo ahora!
     </div>
+
+    <form action="logout.php" method="post" style="display:inline;">
+        <button type="submit">Cerrar Sesion</button>
+    </form>
 </body>
 </html>
