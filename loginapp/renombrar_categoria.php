@@ -22,5 +22,5 @@ $stmt->execute([
     'id'     => $id
 ]);
 
-echo "Categoría renombrada a «{$nuevoNombre}». <a href='editar_categoria.php'>Volver</a>";
+echo "Categoría renombrada a «{$nuevoNombre}». <a href='editar_categorias.php'>Volver</a>";
 ?>

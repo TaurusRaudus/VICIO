@@ -14,5 +14,5 @@ if ($nueva === '') {
 $stmt = $conn->prepare("INSERT INTO categorias (nombre) VALUES (:nombre)");
 $stmt->execute(['nombre' => $nueva]);
 
-echo "Categoría «{$nueva}» creada. <a href='editar_categoria.php'>Volver</a>";
+echo "Categoría «{$nueva}» creada. <a href='editar_categorias.php'>Volver</a>";
 ?>

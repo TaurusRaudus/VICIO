@@ -43,6 +43,10 @@ require 'db.php';
     <button type="submit">Renombrar</button>
   </form>
 
+  <form action="logout.php" method="post" style="display:inline;">
+        <button type="submit">Cerrar Sesion</button>
+    </form>
+
   <p><a href="vista_admin.php">← Volver al panel</a></p>
 </body>
 </html>
